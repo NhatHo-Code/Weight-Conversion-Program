@@ -19,12 +19,12 @@ public class Main {
 
         if(userInput == 1){
             converted = userWeight / 2.205;
-            System.out.println("Your weight is " + converted + "kg");
+            System.out.printf("Your weight is %.2f kg",converted );
 
         }
         else if(userInput == 2){
             converted = userWeight * 2.205;
-            System.out.println("Your weight is " + converted + "lbs");
+            System.out.printf("Your weight is %.2f lbs",converted );
 
         }
 
@@ -35,12 +35,12 @@ public class Main {
 
             if(userInput == 1){
                 converted = userWeight / 2.205;
-                System.out.println("Your weight is " + converted + "kg");
+                System.out.printf("Your weight is %.2f kg",converted );
 
             }
             else if(userInput == 2){
                 converted = userWeight * 2.205;
-                System.out.println("Your weight is " + converted + "lbs");
+                System.out.printf("Your weight is %.2f lbs",converted );
 
             }
         }
